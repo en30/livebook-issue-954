@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - livebook
+  livebook:
+    image: livebook/livebook@sha256:4623d37ca4d4ac7d06a48a12d0745e02c301abb42baac2674d0a1771f0dc5be7
