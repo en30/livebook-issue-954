@@ -9,4 +9,4 @@ services:
     depends_on:
       - livebook
   livebook:
-    image: livebook/livebook@sha256:4623d37ca4d4ac7d06a48a12d0745e02c301abb42baac2674d0a1771f0dc5be7
+    image: livebook/livebook@sha256:d3f6f80f60d9419465552b12b8afe0b220cf8303269991212f6430f976e6625c
