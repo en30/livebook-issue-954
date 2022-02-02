@@ -8,5 +8,7 @@ services:
       - "3000:3000"
     depends_on:
       - livebook
+    environment:
+      - "LIVEBOOK_HOST=livebook"
   livebook:
     image: livebook/livebook@sha256:d3f6f80f60d9419465552b12b8afe0b220cf8303269991212f6430f976e6625c
